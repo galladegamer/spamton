@@ -1,0 +1,505 @@
+/* CSS Document */
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Bigshot+One&family=Bungee+Spice&family=Changa+One&family=Creepster&family=Fruktur&family=Great+Vibes&family=Luckiest+Guy&family=Press+Start+2P&family=Rubik+Wet+Paint&family=Rye&family=Special+Elite&display=swap');
+@import url('https://fonts.cdnfonts.com/css/circus');
+
+/*
+COLORS:
+	[[Hyperlink Blocked]] RED:             #ED1C24
+	[[Big Shot]] YELLOW:                   #FFF200
+	[[Pipis]] BLUE:                        #00BFFF
+	[[Slightly Darker]] [[Pipis]] BLUE:    #0085B0
+	[[All Alone On A Late Night]] PINK:    #FFAEC9
+	[[H e a v e n]] WHITE:                 #FFFFFF
+	[[Garbage Can]] GRAY:                  #9C9C9C
+	[[Mike...]] BLACK:                     #000000
+*/
+
+* {
+	margin: 0;
+	border: 0;
+	padding: 0;
+}
+
+body {
+	background-color: #000000;
+	color: #FFFFFF;
+}
+
+h1 {
+	
+}
+
+h2 {
+	
+}
+
+blockquote {
+	
+}
+
+table {
+	
+}
+
+p {
+	font-size: 5em;
+	font-family: "Bebas Neue", "Impact", sans-serif;
+	text-align: center;
+}
+
+dt {
+	font-size: 4em;
+	font-family: "Bebas Neue", "Impact", sans-serif;
+	text-align: center;
+}
+
+dd {
+	font-size: 3em;
+	font-family: "Bebas Neue", "Impact", sans-serif;
+	text-align: center;
+}
+
+
+form {
+	font-size: 2em;
+	font-family: "Bebas Neue", "Impact", sans-serif;
+	text-align: center;
+}
+
+.url {
+	text-align: left;
+	font-family: serif;
+	font-size: 4em;
+}
+
+.salesman {
+	font-family: serif;
+	text-align: center;
+	animation: blink 2s infinite linear;
+}
+@keyframes blink {
+	0% {color: #FFAEC9; text-shadow: 0 0 10px #FFAEC9, 0 0 30px #FFAEC9, 0 0 50px #FFAEC9, 0 0 70px #FFAEC9;}
+	49% {color: #FFAEC9; text-shadow: 0 0 10px #FFAEC9, 0 0 30px #FFAEC9, 0 0 50px #FFAEC9, 0 0 70px #FFAEC9;}
+	50% {color: #FFF200; text-shadow: 0 0 10px #FFF200, 0 0 30px #FFF200, 0 0 40px #FFF200, 0 0 50px #FFF200, 0 0 70px #FFF200;}
+	100% {color: #FFF200; text-shadow: 0 0 10px #FFF200, 0 0 30px #FFF200, 0 0 40px #FFF200, 0 0 50px #FFF200, 0 0 70px #FFF200;}
+}
+
+.center {
+	text-align: center;
+}
+
+.hnav, .fnav {
+	background-color: #000000;
+}
+
+.hnav ul, .fnav ul {
+	text-align: center;
+}
+
+.hnav ul li, .fnav ul li {
+	display: inline-block;
+	padding: 0 1%;
+}
+
+.hnav a, .fnav a {
+	font-family: "Changa One", "Impact", sans-serif;
+	font-weight: bolder;
+	color: #FFFFFF;
+	text-decoration: none;
+	font-size: 4em;
+	transition: all .3s, color 0s;
+}
+.hnav a:hover, .fnav a:hover {
+	font-size: 4.2em;
+	background: url(https://art.pixilart.com/27ba4123b71d064.gif);
+	background-size: cover;
+	-webkit-background-clip: text;
+	background-clip: text;
+	color: transparent;
+}
+
+a {
+	color: #000000;
+	text-decoration: none;
+}
+
+.hiddenText {
+	color: transparent;
+}
+
+img {
+	width: 10%;
+}
+.dancing2, .dancing4, .arrow2 {
+	transform: scaleX(-1);
+}
+.arrow, .arrow2 {
+	width: 5%;
+}
+.titling {
+	text-align: center;
+	font-family: "Bigshot One", "Impact", sans-serif;
+	font-size: 4em;
+}
+.titleText {
+	display: inline-block;
+	font-family: "Bigshot One", "Impact", sans-serif;
+	transform: translate(0, -40px);
+	font-size: 1em;
+}
+.big {
+	font-family: "Great Vibes", cursive;
+	font-weight: bold;
+	background: url(https://art.pixilart.com/27ba4123b71d064.gif);
+	background-size: cover;
+	-webkit-background-clip: text;
+	background-clip: text;
+	color: transparent;
+}
+#spamt {
+	font-size: 1em;
+}
+#wow {
+	font-family: "Fruktur", cursive;
+	color: #ED1C24;
+}
+.website {
+	font-family: serif;
+	font-size: 4em;
+}
+
+.lucky {
+	font-family: "Luckiest Guy", cursive;
+	color: #349621;
+}
+
+.url {
+	width: 100%;
+}
+
+.lifetime {
+	text-align: center;
+	font-family: cursive;
+	animation: pip 1s infinite alternate ease-in-out;
+}
+@keyframes pip {
+	0% {color: #00BFFF}
+	100% {color: #0085B0}
+}
+.trash {
+	text-align: center;
+	font-family: "Special Elite", monospace;
+	color: #9C9C9C;
+	animation: shake .3s infinite linear;
+}
+@keyframes shake {
+	0% {transform: translate(0, 0)}
+	10% {transform: translate(5px, 3px)}
+	20% {transform: translate(-2px, 5px)}
+	30% {transform: translate(5px, -7px)}
+	40% {transform: translate(0px, 3px)}
+	50% {transform: translate(-10px, -5px)}
+	60% {transform: translate(12px, 6px)}
+	70% {transform: translate(-2px, -7px)}
+	80% {transform: translate(-13px, 0px)}
+	90% {transform: translate(0px, 14px)}
+	100% {transform: translate(0, 0)}
+}
+.smooth {
+	color: #FFAEC9;
+	text-shadow: 0 0 10px #FFAEC9, 0 0 30px #FFAEC9, 0 0 50px #FFAEC9, 0 0 70px #FFAEC9;
+	font-family: cursive;
+}
+.hyperlink {
+	font-family: serif;
+	color: #ED1C24;
+	text-shadow: 0 0 10px #ED1C24, 0 0 30px #ED1C24, 0 0 50px #ED1C24, 0 0 70px #ED1C24;
+	font-size: 10em;
+}
+.you {
+	color: #FFF200;
+}
+.deals {
+	font-family: monospace;
+	color: #00BFFF;
+}
+.alone {
+	background: url("../images/static.gif");
+	background-size: contain;
+	-webkit-background-clip: text;
+	background-clip: text;
+	color: transparent;
+	font-family: "Special Elite", monospace;
+}
+
+.heaven {
+	background: url("../images/clouds.jpeg");
+	background-size: contain;
+	-webkit-background-clip: text;
+	background-clip: text;
+	color: #FFFFFF99;
+	text-shadow: 0 0 10px #FFFFFF, 0 0 30px #FFFFFF, 0 0 50px #FFFFFF, 0 0 70px #FFFFFF;
+	font-family: cursive;
+}
+.bigShot {
+	font-size: 15em;
+	font-family: "Rye", cursive;
+	color: #ED1C24;
+	animation: grow 1s infinite alternate ease-in-out;
+}
+@keyframes grow {
+	0% {letter-spacing: 0}
+	100% {letter-spacing: 10px;}
+}
+
+.buy {
+	color: #ED1C24;
+	font-family: "Impact", sans-serif;
+	font-size: 3em;
+}
+
+.click {
+	color: #FFFFFF;
+}
+
+.neo {
+	background: url(https://art.pixilart.com/27ba4123b71d064.gif);
+	background-size: cover;
+	-webkit-background-clip: text;
+	background-clip: text;
+	color: transparent;
+	font-family: "Great Vibes", cursive;
+}
+
+.genorisity {
+	color: #00BFFF;
+	font-family: sans-serif;
+	animation: pip 0.5s infinite alternate ease-in-out;
+}
+
+.abyss {
+	color: #1A237E;
+	font-family: "Rubik Wet Paint"
+}
+
+.b_ig {
+	color: #FFAEC9;
+	text-shadow: 0 0 10px #FFAEC9, 0 0 30px #FFAEC9, 0 0 50px #FFAEC9, 0 0 70px #FFAEC9;
+	font-family: "Great Vibes", cursive;
+}
+
+#bi_g {
+	font-size: 6em;
+}
+
+.sans {
+	font-family: "Comic Sans MS", sans-serif;
+	color: #0099ff;
+	font-weight: normal;
+}
+.papyrus {
+	font-family: "Papyrus", sans-serif;
+	color: #ff9900;
+	font-weight: normal;
+}
+
+.clown {
+	color: #7986CB;
+	font-family: "Circus", "Rye", cursive;
+}
+
+.bigOne {
+	color: #ED1C24;
+	text-shadow: 0 0 10px #ED1C24, 0 0 30px #ED1C24, 0 0 50px #ED1C24, 0 0 70px #ED1C24;
+	font-family: "Bigshot One", cursive;
+}
+
+.get1 {
+	color: #FFFFFFFF;
+}
+.get2 {
+	color: #FFFFFFDD;
+}
+.get3 {
+	color: #FFFFFFBB;
+}
+.get4 {
+	color: #FFFFFF99;
+}
+.get5 {
+	color: #FFFFFF77;
+}
+.get6 {
+	color: #FFFFFF55;
+}
+.get7 {
+	color: #FFFFFF33;
+}
+.get8 {
+	color: #FFFFFF11;
+}
+
+.musicMan {
+	font-size: 3.7em;
+	color: #ED1C24;
+	font-family: "Impact", sans-serif;
+}
+
+.nipper {
+	font-family: "Bungee Spice", serif;
+}
+
+.stars {
+	background: url("../images/stars.png");
+	background-size: cover;
+	-webkit-background-clip: text;
+	background-clip: text;
+	color: #FFFFFF55;
+}
+
+.cash {
+	background: url("../images/cash.jpeg");
+	background-size: cover;
+	-webkit-background-clip: text;
+	background-clip: text;
+	color: transparent;
+	font-family: serif;
+	font-weight: bold;
+}
+
+.crackers {
+	background: url("../images/crackers.jpeg");
+	background-size: cover;
+	-webkit-background-clip: text;
+	background-clip: text;
+	color: transparent;
+	font-family: sans-serif;
+	font-weight: bold;
+}
+
+.pickles {
+	background: url("../images/pickles.jpg");
+	background-size: cover;
+	-webkit-background-clip: text;
+	background-clip: text;
+	color: transparent;
+	font-family: cursive;
+	font-weight: bold;
+}
+
+.flypaper {
+	background: url("../images/flypaper.jpeg");
+	background-size: cover;
+	-webkit-background-clip: text;
+	background-clip: text;
+	color: transparent;
+	font-family: monospace;
+	font-weight: bold;
+}
+
+.morshu {
+	width: 50%;
+}
+
+.classics {
+	color: #FFAEC9;
+	font-family: cursive;
+}
+
+.copyright {
+	font-size: 0.1em;
+}
+
+.very {
+	font-size: 5.5em;
+}
+
+.yes {
+	width: 100%;
+}
+
+.shop {
+	font-family: monospace;
+}
+
+.slime {
+	color: #009600;
+	font-family: "Creepster", cursive;
+}
+
+.keygen {
+	background: url(https://art.pixilart.com/27ba4123b71d064.gif);
+	background-size: cover;
+	-webkit-background-clip: text;
+	background-clip: text;
+	color: transparent;
+}
+
+#keysmash::after {
+	font-family: monospace;
+	content: "";
+	animation: key 0.3s infinite linear;
+}
+@keyframes key {
+	0% {content: "#*@&"}
+	10% {content: "^$*#"}
+	20% {content: "@%!$"}
+	30% {content: "$!(^"}
+	40% {content: "!&$)"}
+	50% {content: "*#&!"}
+	60% {content: ")@#%"}
+	70% {content: "%*)@"}
+	80% {content: "(^#&"}
+	90% {content: "&(@*"}
+	100% {content: "@)^("}
+}
+
+.tong {
+	color: #9C9C9C;
+	font-family: "Special Elite", serif;
+}
+
+.legitimate {
+	color: #0085B0;
+	font-family: monospace;
+}
+
+input {
+	border-radius: 5px;
+	height: 1.5em;
+	margin: 0.5em 0;
+}
+
+.button {
+	padding: 5px 10px;
+	border-radius: 10px;
+	background-color: #9b3b8f;
+	font-weight: bold;
+	font-size:.8em;
+	color: #000115;
+	transition: 0.2s all;
+}
+
+.button:hover {
+	cursor: pointer;
+	background-color: #6b1e62;
+}
+
+#submit {
+	background-color: #FFAEC9;
+	color: #D60047
+}
+
+#submit:hover {
+	background-color: #00FF00;
+	color: #005500;
+}
+#reset {
+	background-color: #FFF200;
+	color: #7F7900
+}
+
+#reset:hover {
+	background-color: #FF0000;
+	color: #550000;
+}
